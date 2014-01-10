@@ -1,0 +1,10 @@
+keycode 225 = Alt_L
+keycode 180 = Super_L Hyper_L
+keycode 166 = Escape
+keycode 220 = Print
+keycode 147 = Menu
+keycode 22 = BackSpace Delete
+keycode 69 = F5
+keycode 246 = F1
+keycode 245 = F2
+keycode 68 = F3
