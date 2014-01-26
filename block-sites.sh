@@ -56,7 +56,7 @@ case "$1" in
 
     -l|--list)
         for line in "$(sed "0,/$tag/d" /etc/hosts)"; do
-            echo $(echo $line | sed -e 's/^127.0.0.1[ \t]*//')
+            echo "$line" | sed -e 's/^127.0.0.1[ \t]*//'
         done
         ;;
 
